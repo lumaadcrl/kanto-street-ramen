@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kantō 関東 Street Ramen</title>
+        <link rel="icon" href="../img/logo.jpg">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link href="../src/output.css" rel="stylesheet">
+    </head>
+    <body class="font-sans">
+
+        <header class="w-full bg-black text-white px-4 sm:px-6 lg:px-12 py-4 fixed z-50">
+            <nav class="flex items-center justify-between">
+                <a href="../index.html" class="flex items-center gap-2">
+                    <img src="../img/logo.jpg" alt="Kantō 関東 Street Ramen" class="w-10 sm:w-12 rounded-md">
+                    <h1 class="font-semibold text-lg sm:text-xl lg:text-2xl">Kantō 関東 Street Ramen</h1>
+                </a>
+
+                <button id="menu-btn" class="text-white text-3xl lg:hidden focus:outline-none">
+                    <i id="menu-icon" class='bx bx-menu'></i>
+                </button>
+
+                <div id="nav-links" class="hidden lg:flex uppercase gap-4 sm:gap-6 font-semibold text-sm sm:text-base">
+                    <a href="/pages/index.html" class="hover:text-red-600 duration-200">Home</a>
+                    <a href="/pages/about.html" class="hover:text-red-600 duration-200">About</a>
+                    <a href="/pages/menu.html" class="hover:text-red-600 duration-200">Menu</a>
+                    <a href="/pages/shoplist.html" class="hover:text-red-600 duration-200">Shop List</a>
+                    <a href="/pages/locations.html" class="hover:text-red-600 duration-200">Locations</a>
+                </div>
+            </nav>
+
+            <div id="mobile-menu" class="lg:hidden hidden flex flex-col items-center text-center gap-4 uppercase mt-4 px-4 text-sm font-semibold">
+                <a href="../index.html" class="hover:text-red-600 duration-200">Home</a>
+                <a href="/pages/about.html" class="hover:text-red-600 duration-200">About</a>
+                <a href="/pages/menu.html" class="hover:text-red-600 duration-200">Menu</a>
+                <a href="/pages/shoplist.html" class="hover:text-red-600 duration-200">Shop List</a>
+                <a href="/pages/locations.html" class="hover:text-red-600 duration-200">Locations</a>
+            </div>
+        </header>
+
+        <section class="h-[80vh] sm:h-[100vh] bg-no-repeat bg-cover bg-center flex items-end pt-32"
+        style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../img/hero2.webp');">
+            <h1 class="text-white uppercase font-bold text-2xl sm:text-4xl lg:text-5xl mb-16 ml-4 sm:ml-10 lg:ml-20">
+                Authentic <br> Affordable Ramen
+            </h1>
+        </section>
+
+        <section class="mt-12 px-4 sm:px-6 lg:px-20">
+            <div class="h-[300px] sm:h-[400px] flex items-center justify-center bg-center bg-cover" 
+            style="background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/hero.webp');">
+                <div class="flex flex-col items-center gap-6 text-center text-white">
+                    <h1 class="uppercase font-bold text-2xl sm:text-3xl">Get to Know Us</h1>
+                    <p class="text-sm sm:text-base">
+                        An introduction to the basic principles of Kanto Ramen, <br>
+                        the significance of the brand; what we aim to achieve.
+                    </p>
+                    <a href="/pages/about.html" class="border-2 uppercase font-bold py-2 w-40 hover:bg-red-600 duration-200">Read More</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="mt-12 px-4 sm:px-6 lg:px-20">
+            <div class="h-[300px] sm:h-[400px] flex items-center justify-center bg-cover bg-center" 
+            style="background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/menu.jpg');">
+                <div class="flex flex-col items-center gap-6 text-center text-white">
+                    <h1 class="uppercase font-bold text-2xl sm:text-3xl">Menu</h1>
+                    <p class="text-sm sm:text-base">Ramen and Side Menu offered at Kantō 関東.</p>
+                    <a href="/pages/menu.html" class="border-2 uppercase font-bold py-2 w-40 hover:bg-red-600 duration-200">Read More</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="mt-12 mb-12 px-4 sm:px-6 lg:px-20">
+            <div class="h-[300px] sm:h-[400px] flex items-center justify-center bg-cover bg-center"
+            style="background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/cebu_shop.jpg');">
+                <div class="flex flex-col items-center gap-6 text-center text-white">
+                    <h1 class="uppercase font-bold text-2xl sm:text-3xl">Shop List</h1>
+                    <p class="text-sm sm:text-base">
+                        Kantō 関東 is constantly expanding into new areas. <br>
+                        Click here for Kanto store locations.
+                    </p>
+                    <a href="/pages/shoplist.html" class="border-2 uppercase font-bold py-2 w-40 hover:bg-red-600 duration-200">Read More</a>
+                </div>
+            </div>
+        </section>
+
+        <footer class="w-full bg-black text-white px-4 sm:px-8 lg:px-20 py-10">
+            <div class="font-semibold flex flex-col lg:flex-row justify-between items-center mb-12 gap-6">
+                <a href="../index.html" class="flex items-center gap-2">
+                    <img src="../img/logo.jpg" alt="Kantō 関東 Street Ramen" class="w-10 rounded-md">
+                    <h1 class="text-lg sm:text-xl">Kantō 関東 Street Ramen</h1>
+                </a>
+                <div class="uppercase flex flex-wrap justify-center gap-4 sm:gap-6 font-semibold text-sm sm:text-base">
+                    <a href="/pages/index.html" class="hover:text-red-600 duration-200">Home</a>
+                    <a href="/pages/about.html" class="hover:text-red-600 duration-200">About</a>
+                    <a href="/pages/menu.html" class="hover:text-red-600 duration-200">Menu</a>
+                    <a href="/pages/shoplist.html" class="hover:text-red-600 duration-200">Shop List</a>
+                    <a href="/pages/locations.html" class="hover:text-red-600 duration-200">Locations</a>
+                </div>
+            </div>
+            <div class="flex flex-col sm:flex-row justify-between items-center gap-4 text-sm">
+                <div>
+                    © Kantō 関東 Street Ramen, Inc. All Rights Reserved.
+                </div>
+                <div class="flex gap-4 text-xl">
+                    <a href="https://www.facebook.com/kantostreetramen/" class="hover:text-red-600 duration-200"><i class='bx bxl-facebook'></i></a>
+                    <a href="https://www.instagram.com/kantostreetramen/" class="hover:text-red-600 duration-200"><i class='bx bxl-instagram'></i></a>
+                </div>
+            </div>
+        </footer>
+
+        <script src="../pages/functions.js"></script>
+    </body>
+</html>

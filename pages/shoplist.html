@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kantō 関東 Street Ramen | ShopList</title>
+        <link rel="icon" href="../img/logo.jpg">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link href="../src/output.css" rel="stylesheet">
+    </head>
+    <body class="font-sans">
+
+        <!-- Responsive Header with Hamburger -->
+        <header class="w-full bg-black text-white px-4 sm:px-6 lg:px-12 py-4 fixed z-50">
+            <nav class="flex items-center justify-between">
+                <a href="../index.html" class="flex items-center gap-2">
+                    <img src="../img/logo.jpg" alt="Kantō 関東 Street Ramen" class="w-10 sm:w-12 rounded-md" />
+                    <h1 class="font-semibold text-lg sm:text-xl lg:text-2xl">Kantō 関東 Street Ramen</h1>
+                </a>
+                <button id="menu-btn" class="text-white text-3xl lg:hidden focus:outline-none">
+                    <i id="menu-icon" class="bx bx-menu"></i>
+                </button>
+                <div id="nav-links" class="hidden lg:flex uppercase gap-4 sm:gap-6 font-semibold text-sm sm:text-base">
+                    <a href="../index.html" class="hover:text-red-600 duration-200">Home</a>
+                    <a href="/pages/about.html" class="hover:text-red-600 duration-200">About</a>
+                    <a href="/pages/menu.html" class="hover:text-red-600 duration-200">Menu</a>
+                    <a href="/pages/shoplist.html" class="hover:text-red-600 duration-200">Shop List</a>
+                    <a href="/pages/locations.html" class="hover:text-red-600 duration-200">Locations</a>
+                </div>
+            </nav>
+
+            <div id="mobile-menu" class="lg:hidden hidden flex flex-col items-center text-center gap-4 uppercase mt-4 px-4 text-sm font-semibold">
+                <a href="../index.html" class="hover:text-red-600 duration-200">Home</a>
+                <a href="/pages/about.html" class="hover:text-red-600 duration-200">About</a>
+                <a href="/pages/menu.html" class="hover:text-red-600 duration-200">Menu</a>
+                <a href="/pages/shoplist.html" class="hover:text-red-600 duration-200">Shop List</a>
+                <a href="/pages/locations.html" class="hover:text-red-600 duration-200">Locations</a>
+            </div>
+        </header>
+
+        <section class="h-[100vh] bg-no-repeat bg-cover bg-center flex items-center justify-center text-center"
+        style=" background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/cebu_shop.jpg');">
+            <div class="flex items-center gap-2.5">
+                <div class="w-2 h-[60px] bg-red-700"></div>
+                <h1 class="uppercase text-white font-bold text-6xl">Shop List</h1>
+            </div>
+        </section>
+
+        <section class="mt-[50px] mb-[100px] px-4 sm:px-8 lg:px-20">
+            <div class="flex-col">
+                <h1 class="flex text-3xl uppercase items-center justify-center font-bold">Cebu Province's</h1>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-[40px]">
+                    <div class="space-y-4">
+                        <img src="../img/lapu-lapu branch.webp" alt="Lapu-Lapu" class="w-full h-64 object-cover rounded-lg">
+                        <span class="border border-black px-2 py-1 inline-block text-sm">Lapu-Lapu</span>
+                        <h2 class="text-2xl font-bold">Pusok Kanto Ramen</h2>
+                        <p class="text-gray-700 capitalize">
+                             0916 704 6237 <br>
+                            ML QUEZON NATIONAL HIGHWAY, Mustang Rd, Lapu-Lapu, 6015 Cebu
+                        </p>
+                    </div>
+                    <div class="space-y-4">
+                        <img src="../img/mandaue_shop.jpg" alt="Mandaue" class="w-full h-64 object-cover rounded-lg">
+                        <span class="border border-black px-2 py-1 inline-block text-sm">Mandaue</span>
+                        <h2 class="text-2xl font-bold">Mandaue Kanto Ramen</h2>
+                        <p class="text-gray-700">
+                            8WPV+945, P. Ouano Rd, Mandaue, Cebu
+                        </p>
+                    </div>
+                    <div class="space-y-4">
+                        <img src="../img/cebu_branch.webp" alt="Cebu" class="w-full h-64 object-cover rounded-lg">
+                        <span class="border border-black px-2 py-1 inline-block text-sm">Cebu</span>
+                        <h2 class="text-2xl font-bold">Cebu Kanto Ramen</h2>
+                        <p class="text-gray-700">
+                            0917 777 0755<br>
+                            Don Jose Avila St, Cebu City, 6000 Cebu
+                        </p>
+                    </div>
+                    <div class="space-y-4">
+                        <img src="../img/talisay_branch.webp" alt="talisay_branch" class="w-full h-64 object-cover rounded-lg">
+                        <span class="border border-black px-2 py-1 inline-block text-sm">Talisay</span>
+                        <h2 class="text-2xl font-bold">Cebu Kanto Ramen</h2>
+                        <p class="text-gray-700">
+                            San Isidro Barangay Hall
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="w-full bg-black text-white px-4 sm:px-8 lg:px-20 py-10">
+            <div class="font-semibold flex flex-col lg:flex-row justify-between items-center mb-12 gap-6">
+                <a href="../index.html" class="flex items-center gap-2">
+                    <img src="../img/logo.jpg" alt="Kantō 関東 Street Ramen" class="w-10 rounded-md" />
+                    <h1 class="text-lg sm:text-xl">Kantō 関東 Street Ramen</h1>
+                </a>
+                <div class="uppercase flex flex-wrap justify-center gap-4 sm:gap-6 font-semibold text-sm sm:text-base">
+                    <a href="../index.html" class="hover:text-red-600 duration-200">Home</a>
+                    <a href="/pages/about.html" class="hover:text-red-600 duration-200">About</a>
+                    <a href="/pages/menu.html" class="hover:text-red-600 duration-200">Menu</a>
+                    <a href="/pages/shoplist.html" class="hover:text-red-600 duration-200">Shop List</a>
+                    <a href="/pages/locations.html" class="hover:text-red-600 duration-200">Locations</a>
+                </div>
+                </div>
+                <div class="flex flex-col sm:flex-row justify-between items-center gap-4 text-sm">
+                    <div>© Kantō 関東 Street Ramen, Inc. All Rights Reserved.</div>
+                    <div class="flex gap-4 text-xl">
+                        <a href="https://www.facebook.com/kantostreetramen/" class="hover:text-red-600 duration-200"><i class="bx bxl-facebook"></i></a>
+                        <a href="https://www.instagram.com/kantostreetramen/" class="hover:text-red-600 duration-200"><i class="bx bxl-instagram"></i></a>
+                    </div>
+            </div>
+        </footer>
+
+    <script src="functions.js"></script>
+
+    </body>
+</html>
